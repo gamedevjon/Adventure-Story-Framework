@@ -37,7 +37,7 @@ int Main()
     std::getline(std::cin, gameWorld);
 
     std::cout << "Quest Objective: ";
-    std::getline(std::cin, questObjective);
+    std::getline(cin, questObjective);
 
     std::cout << "Enemy Type: ";
     std::getline(std::cin, enemyType);
@@ -48,7 +48,7 @@ int Main()
     // Display the story
 
     
-    std::cout << "\n\n** The Quest of " << playerName << " in " << gameWorld << " **\n\n";
+    std::cout << "\n\n** The Quest of " << playerName << " in " << gameWorld << " **\n\n"
     std::cout << "In the mystical realm of " << gameWorld << ", a courageous adventurer named " << playerName << " was on a grand quest. Their mission: " << questObjective << ". Armed with their trusty " << weapon << ", " << playerName << " set out on a journey filled with challenges and excitement.\n";
     std::cout << "As they ventured deeper into the " << gameWorld << ", " << playerName << " encountered menacing " << enemyType << "s, each more formidable than the last. With steely determination, " << playerName << " wielded their " << weapon << " and faced these adversaries head-on.\n";
     std::cout << "The path was treacherous, and the trials were many, but " << playerName << " pressed on, driven by a resolute spirit and a desire to triumph over all obstacles. Along the way, they discovered hidden treasures, ancient artifacts, and forged alliances with fellow adventurers.\n";
